@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<title>Websocket demo</title>
+    	<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    	<script src="/app.js"></script>
+	</head>
+	<body>
+		<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being enabled. Please enable Javascript and reload this page!</h2></noscript>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1>Coin Cap</h1>
+				</div>
+			</div>
+  			<div class="row">
+  				<div class="col-sm-2">
+  					<div class="dropdown">
+						  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Select Country</button>
+						  <div class="dropdown-menu">
+    						<a class="dropdown-item" href="#">USD - United States</a>
+    						<a class="dropdown-item" href="#">AUD - Australia</a>
+  						</div>
+					</div>
+  				</div>
+  				<div class="col-sm-10">
+  					 <div class="progress">
+    					<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%">Loading...</div>
+  					</div>
+  					<div class="table-responsive">
+  						 <table class="table table-hover table-bordered">
+  						 	 <thead>
+      							<tr>
+        							<th>Name</th>
+        							<th>Price</th>
+							     </tr>
+    						</thead>
+    						<tbody>
+    							
+    						</tbody>
+  						 </table>
+  					</div>
+  				</div>
+			</div> 
+		</div>
+	</body>
+</html>
